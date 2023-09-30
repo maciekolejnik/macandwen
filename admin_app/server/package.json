@@ -1,0 +1,25 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "backend for admin app for managing macandwen",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciekolejnik/macandwen.git#main"
+  },
+  "author": "Maciek Olejnik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maciekolejnik/macandwen/issues"
+  },
+  "homepage": "https://github.com/maciekolejnik/macandwen/tree/main#readme",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0"
+  }
+}
